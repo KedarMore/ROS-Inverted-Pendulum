@@ -1,5 +1,8 @@
 # ROS-Inverted-Pendulum
 
+* /rosdistro: noetic
+* /rosversion: 1.16.0
+
 Build your ROS Workspace
 
 "mkdir -p ~/catkin_ws/src"
