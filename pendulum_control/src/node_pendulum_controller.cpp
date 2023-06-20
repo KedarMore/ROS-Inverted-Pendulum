@@ -76,10 +76,10 @@ public:
 
             geometry_msgs::Wrench msg;
 
-            msg.torque.x = controller::torque;
+            msg.torque.x = std::max(std::min(controller::torque,(float)100.0),(float)-100.0); // cap torque value to -100 and 100
 
 
-            control_output.publish(msg);
+            control_output.publish(msg); // send torque
 
             controller::PID_input_prev = controller::PID_input;
 
