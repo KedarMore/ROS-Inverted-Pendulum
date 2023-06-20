@@ -15,6 +15,10 @@ catkin_make
 ```
 put the catkin package 'pendulum_control' in catkin_ws/src/
 
+Source the setup.bash file in all the terminals.
+```
+source devel/setup.bash
+```
 ##
 
 terminal 1:
