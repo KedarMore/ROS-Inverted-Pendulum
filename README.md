@@ -1,6 +1,14 @@
 # ROS-Inverted-Pendulum
 
-Build your ROS Workspace and put the catkin package 'pendulum_control' in catkin_ws/src/
+Build your ROS Workspace
+
+"mkdir -p ~/catkin_ws/src"
+
+"cd ~/catkin_ws/"
+
+"catkin_make"
+
+put the catkin package 'pendulum_control' in catkin_ws/src/
 
 ##
 
