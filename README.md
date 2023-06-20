@@ -20,6 +20,9 @@ terminal 1:
 "catkin_make"
 
 "rosrun pendulum_control node_pendulum_controller"
+
+Monitor Actual Angle here.
+
 ##
 
 terminal 2:
@@ -34,3 +37,5 @@ terminal 3:
 "rosrun pendulum_control node_pendulum_simulator"
 
 This command will ask you to input an initial angle (in degrees).
+
+Monitor Motor Torque values here.
